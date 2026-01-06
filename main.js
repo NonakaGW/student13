@@ -88,9 +88,9 @@ document.querySelectorAll(".js-marquee-add").forEach(slider => {
    食べもの・飲みものガチャ
 ================================ */
 const foods = [
-    { name: "ミートソーススパゲッティ", img: "images/meat_sauce_spaghetti.png" },
-    { name: "マルゲリータ", img: "images/margherita_pizza.png" },
-    { name: "麦茶", img: "images/barley_tea.png" },
+    { name: "ミートソーススパゲッティ", img: "images/meat_sauce_spaghetti.jpg" },
+    { name: "マルゲリータ", img: "images/margherita_pizza.jpg" },
+    { name: "麦茶", img: "images/barley_tea.webp" },
 ];
 
 const gachaImg = document.getElementById("gacha-img");
@@ -162,4 +162,5 @@ document.addEventListener("keydown", e => {
         modalImg.src = "";
     }
 });
+
 
