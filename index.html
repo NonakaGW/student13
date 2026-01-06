@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta charset="UTF-8" />
+        <title>My Favorite Things</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- AOS -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+
+        <header>
+            <h1>My Favorite Things</h1>
+            <p>ゲーム・推し・食べもの</p>
+        </header>
+
+        <!-- 1. 好きな作品（左に流れる） -->
+        <section class="section" data-aos="fade-up">
+            <h2>🎮 好きな作品</h2>
+
+            <div class="slider js-marquee" data-speed="0.6">
+                <div class="track">
+                    <img src="images/undertale.png" alt="アンダーテール">
+                    <img src="images/deltarune.avif" alt="デルタルーン">
+                    <img src="images/aquarium_odoranaide.webp" alt="アクアリウムは踊らない">
+                    <img src="images/mahou_shojo_majo_saiban.png" alt="魔法少女ノ魔女裁判">
+                    <img src="images/touhou_project.jpg" alt="東方Project">
+                    <img src="images/miitopia.avif" alt="ミートピア">
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. 推してる人たち（右に流れる） -->
+        <section class="section" data-aos="fade-up">
+            <h2>🌟 推してる人たち</h2>
+
+            <div class="slider js-marquee-add" data-speed="-0.6" data-limit="5">
+                <div class="track">
+                    <img src="images/oshi_hololive.webp" data-id="hololive" alt="ホロライブ">
+                    <img src="images/oshi_mememura.webp" data-id="mememura" alt="めめ村">
+                    <img src="images/oshi_stpr.jpg" data-id="stpr" alt="すとぷり">
+
+                    <img src="images/oshi_hololive.webp" data-id="hololive" alt="ホロライブ">
+                    <img src="images/oshi_mememura.webp" data-id="mememura" alt="めめ村">
+                    <img src="images/oshi_stpr.jpg" data-id="stpr" alt="すとぷり">
+                </div>
+            </div>
+
+
+        </section>
+
+        <!-- 3. 食べものガチャ -->
+        <section class="section sec3" data-aos="fade-up">
+            <h2>🎰 好きな食べもの・飲みものガチャ</h2>
+
+            <div class="gacha-box">
+                <img id="gacha-img" src="images/meat_sauce_spaghetti.png" alt="">
+                <p id="gacha-name">？？？</p>
+            </div>
+
+            <button id="gacha-start">START</button>
+            <button id="gacha-stop" disabled>STOP!</button>
+
+            <p id="gacha-result"></p>
+        </section>
+
+        <!-- 画像拡大モーダル -->
+        <div id="image-modal" class="modal hidden">
+            <div class="modal-bg"></div>
+
+            <div class="modal-content">
+                <div class="modal-inner">
+                    <button class="modal-close" aria-label="閉じる">
+                        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                            <path d="M18 6L6 18M6 6l12 12" fill="none" stroke="currentColor" stroke-width="2.8"
+                                stroke-linecap="round" />
+                        </svg>
+                    </button>
+
+
+                    <img id="modal-img" src="" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+        <script src="main.js"></script>
+    </body>
+
+</html>
