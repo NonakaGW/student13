@@ -91,38 +91,6 @@ const foods = [
     { name: "ミートソーススパゲッティ", img: "images/meat_sauce_spaghetti.png" },
     { name: "マルゲリータ", img: "images/margherita_pizza.png" },
     { name: "麦茶", img: "images/barley_tea.png" },
-    { name: "水", img: "images/water.png" },
-    { name: "トマトソーススパゲッティ", img: "images/tomato_sauce_spaghetti.png" },
-    { name: "チョコレート", img: "images/chocolate.png" },
-    { name: "そぼろ", img: "images/soboro.png" },
-    { name: "カステラ", img: "images/castella.png" },
-    { name: "ココア", img: "images/cocoa.png" },
-    { name: "クッキー", img: "images/cookie.png" },
-    { name: "ビスケット", img: "images/biscuit.png" },
-    { name: "鳩サブレー", img: "images/hato_sable.png" },
-    { name: "クジラの竜田揚げ", img: "images/whale_tatsuta.png" },
-    { name: "フライドポテト", img: "images/fried_potato.png" },
-    { name: "カントリーマーム", img: "images/country_maam.png" },
-    { name: "ホームパイ", img: "images/home_pie.png" },
-    { name: "メロンパン", img: "images/melon_pan.png" },
-    { name: "クロワッサン", img: "images/croissant.png" },
-    { name: "塩パン", img: "images/shio_pan.png" },
-    { name: "エンゼルクリーム", img: "images/angel_cream.png" },
-    { name: "ポンデリング", img: "images/pon_de_ring.png" },
-    { name: "プレーンワッフル", img: "images/plain_waffle.png" },
-    { name: "チョコワッフル", img: "images/chocolate_waffle.png" },
-    { name: "メープルワッフル", img: "images/maple_waffle.png" },
-    { name: "きな粉餅", img: "images/kinako_mochi.png" },
-    { name: "サバの味噌煮", img: "images/saba_misoni.png" },
-    { name: "塩サバ", img: "images/shio_saba.png" },
-    { name: "ナゲット", img: "images/nugget.png" },
-    { name: "三角チョコパイ", img: "images/sankaku_choco_pie.png" },
-    { name: "ガーリックトースト", img: "images/garlic_toast.png" },
-    { name: "鶏皮", img: "images/torikawa.png" },
-    { name: "リッツ（クラッカー）", img: "images/ritz_cracker.png" },
-    { name: "シナモンロール", img: "images/cinnamon_roll.png" },
-    { name: "じゃがりこ（チーズ味）", img: "images/jagariko_cheese.png" },
-    { name: "のり塩ポテトチップス", img: "images/nori_shio_chips.png" }
 ];
 
 const gachaImg = document.getElementById("gacha-img");
@@ -194,3 +162,4 @@ document.addEventListener("keydown", e => {
         modalImg.src = "";
     }
 });
+
