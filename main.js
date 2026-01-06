@@ -91,6 +91,7 @@ const foods = [
     { name: "ミートソーススパゲッティ", img: "images/meat_sauce_spaghetti.jpg" },
     { name: "マルゲリータ", img: "images/margherita_pizza.jpg" },
     { name: "麦茶", img: "images/barley_tea.webp" },
+   
 ];
 
 const gachaImg = document.getElementById("gacha-img");
@@ -162,5 +163,3 @@ document.addEventListener("keydown", e => {
         modalImg.src = "";
     }
 });
-
-
